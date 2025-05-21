@@ -74,12 +74,35 @@ $P(X_{n+1} = j | X_0 = i_0, X_1 = i_1, ..., X_n = i) = P(X_{n+1} = j | X_n = i)$
 
 The one-step transition probability matrix $P$:
 
-$P = \begin{pmatrix}
-p_{11} & p_{12} & \cdots & p_{1n} \\
-p_{21} & p_{22} & \cdots & p_{2n} \\
-\vdots & \vdots & \ddots & \vdots \\
-p_{n1} & p_{n2} & \cdots & p_{nn}
-\end{pmatrix}$
+<div align="center">
+<p>P = </p>
+<table>
+  <tr>
+    <td>p<sub>11</sub></td>
+    <td>p<sub>12</sub></td>
+    <td>⋯</td>
+    <td>p<sub>1n</sub></td>
+  </tr>
+  <tr>
+    <td>p<sub>21</sub></td>
+    <td>p<sub>22</sub></td>
+    <td>⋯</td>
+    <td>p<sub>2n</sub></td>
+  </tr>
+  <tr>
+    <td>⋮</td>
+    <td>⋮</td>
+    <td>⋱</td>
+    <td>⋮</td>
+  </tr>
+  <tr>
+    <td>p<sub>n1</sub></td>
+    <td>p<sub>n2</sub></td>
+    <td>⋯</td>
+    <td>p<sub>nn</sub></td>
+  </tr>
+</table>
+</div>
 
 where $p_{ij} = P(X_{n+1} = j | X_n = i)$
 
